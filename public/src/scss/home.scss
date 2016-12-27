@@ -1,0 +1,43 @@
+
+@import "./mixins/variables.scss";
+@import "./mixins/reset.scss";
+@import "./mixins/base.scss";
+
+body {
+    color: $text-color-base;
+    background-color: $bg-base;
+}
+
+a {
+  color: $link-base-color;
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+@import "./components/header.scss";
+@import "./components/main.scss";
+@import "./components/footer.scss";
+
+
+.container {
+	position: relative;
+  float: none;
+  clear: both;
+  overflow: visible;
+  width: 1320px;
+  margin: 0 auto;
+
+  &:after {
+  	display: table;
+  	content: "";
+  	clear: both;
+  }
+}
+
+.blog-cover {
+  height: 480px;
+  background-repeat: no-repeat;
+  background-position:center top;
+  overflow: hidden;
+}

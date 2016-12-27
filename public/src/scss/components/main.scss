@@ -1,0 +1,78 @@
+/* ====================================
+// B. MAIN CONTENT, LOOP
+==================================== */
+#main {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#main a {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+#main article {
+  background:#fff;
+  margin-bottom: 20px;
+  padding: 40px;
+  position: relative;
+}
+#main article .post-header {
+  position: relative;
+  width: 100%;
+}
+#main article .post-meta-info {
+  color: #7ad3aa;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-bottom:16px;
+}
+#main article .post-meta-info time {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#main article .post-meta-info a {
+  color: #7ad3aa;
+  font-style: italic;
+}
+#main article .post-meta-info a:hover {
+  color: #363636;
+}
+#main article .post-title {
+  font-size: 2em;
+  line-height: 1.4em;
+  margin: 42px 0 16px 0;
+}
+#main article .post-title a {
+  color: #363636;
+  text-decoration: none;
+}
+#main article .post-title a:hover {
+  color: #7ad3aa;
+}
+#main article .post-author-link {
+  color: #bdbdbd;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+#main article .post-author-link a {
+  color: #bdbdbd;
+}
+#main article .post-author-link a:hover {
+  color: #7ad3aa;
+}
+#main article .post-excerpt {
+  position: relative;
+}
+#main article .post-excerpt p {
+  margin: 42px 0;
+}
+#main article .read-more-link {
+  color: #7ad3aa;
+  font-size: 0.9em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#main article .read-more-link:hover {
+  color: #363636;
+}

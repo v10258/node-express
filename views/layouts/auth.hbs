@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>Meadowlark Travel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<link href="dist/css/common.css" rel="stylesheet">
+</head>
+<body>
+{{#if flash}}
+<div class="alert alert-dismissible alert-{{flash.type}}">
+	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;<button>
+	<strong>{{flash.intro}}</strong> {{{flash.message}}}
+</div>
+{{/if}}
+{{{body}}}
+<script src="/dist/js/common.js"></script>
+</body>
+</html>

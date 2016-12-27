@@ -1,0 +1,30 @@
+<div class="container">
+    <h2>注册</h2>
+    <hr>
+    <div class="row">
+      <div class="col-xs-6 offset-md-3">
+        <form class="auth-form" method="post" enctype="multipart/form-data">
+          <input type="hidden" name="_csrf" value="csrfToken">
+          <div class="form-group">
+            <label for="email">邮箱</label>
+            <input type="email" name="email" id="email" required class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="password">密码</label>
+            <input type="password" name="password" id="password" required class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="repassword">重复密码</label>
+            <input type="password" name="repassword" id="repassword" required class="form-control">
+          </div>
+          <div class="form-group required">
+            <label for="avatar">头像</label>
+            <input type="file" name="avatar" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-primary">注册</button>
+          <a href="#"> ->点击登录</a>
+        </form>
+      </div>
+    </div>
+  <script>try { document.getElementById('email').focus(); } catch(e) {};</script>
+</div>
